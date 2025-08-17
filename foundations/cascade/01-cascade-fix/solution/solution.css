@@ -1,5 +1,5 @@
-body{
-  font-family:Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .para,
@@ -33,7 +33,7 @@ div.text {
     font-size: 14px;
     font-weight: 800;
   } 
-
+.small-para {.small-para {
   Then we placed it after the .para selector, taking advantage of the rule order since both selectors have the same specificity. 
   
   Another solution would be keeping it in its original place and just chaining selectors, giving this rule a higher specificity:
