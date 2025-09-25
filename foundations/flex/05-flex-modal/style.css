@@ -70,3 +70,12 @@ button.cancel {
 }
 
 /* Solution */
+
+.modal {
+  display: flex;
+  padding: 12px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
