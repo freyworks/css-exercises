@@ -41,6 +41,10 @@ ul {
   margin: 0;
 }
 
+li {
+  padding: 12px;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -58,7 +62,6 @@ a {
 
 .sidebar {
   flex: 0 0 300px;
-  display: flex;
   padding: 16px;
 }
 
@@ -83,9 +86,7 @@ html {
 }
 
 .card {
-  display: flex;
   flex: 0 1 320px;
-  flex-direction: column;
   padding: 24px;
   min-height: 200px;
 }
