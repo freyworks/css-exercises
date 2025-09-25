@@ -29,4 +29,23 @@ input {
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 12px;
 }
