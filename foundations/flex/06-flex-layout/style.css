@@ -51,3 +51,15 @@ a {
   gap: 12px;
   min-width: 0;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons,
+button {
+  padding: 12px;
+}
